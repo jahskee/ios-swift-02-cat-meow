@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04635255220D377600711BD4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04635254220D377600711BD4 /* AVFoundation.framework */; };
 		04949864220CFDF2000FF7F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04949863220CFDF2000FF7F5 /* AppDelegate.swift */; };
 		04949866220CFDF2000FF7F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04949865220CFDF2000FF7F5 /* ViewController.swift */; };
 		04949869220CFDF2000FF7F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04949867220CFDF2000FF7F5 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		0494986E220CFDF3000FF7F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0494986C220CFDF3000FF7F5 /* LaunchScreen.storyboard */; };
 		04949879220CFDF3000FF7F5 /* ios_swift_project2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04949878220CFDF3000FF7F5 /* ios_swift_project2Tests.swift */; };
 		04949884220CFDF3000FF7F5 /* ios_swift_project2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04949883220CFDF3000FF7F5 /* ios_swift_project2UITests.swift */; };
+		04949897220D0BCD000FF7F5 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04949896220D0BCD000FF7F5 /* Cat.wav */; };
+		04949898220D0BCD000FF7F5 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04949896220D0BCD000FF7F5 /* Cat.wav */; };
+		04949899220D0BCD000FF7F5 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04949896220D0BCD000FF7F5 /* Cat.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04635254220D377600711BD4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		04949860220CFDF2000FF7F5 /* ios-swift-project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-swift-project2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04949863220CFDF2000FF7F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04949865220CFDF2000FF7F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		0494987F220CFDF3000FF7F5 /* ios-swift-project2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-swift-project2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04949883220CFDF3000FF7F5 /* ios_swift_project2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_swift_project2UITests.swift; sourceTree = "<group>"; };
 		04949885220CFDF3000FF7F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04949896220D0BCD000FF7F5 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04635255220D377600711BD4 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04635253220D377600711BD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04635254220D377600711BD4 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04949857220CFDF2000FF7F5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +96,7 @@
 				04949877220CFDF3000FF7F5 /* ios-swift-project2Tests */,
 				04949882220CFDF3000FF7F5 /* ios-swift-project2UITests */,
 				04949861220CFDF2000FF7F5 /* Products */,
+				04635253220D377600711BD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +113,7 @@
 		04949862220CFDF2000FF7F5 /* ios-swift-project2 */ = {
 			isa = PBXGroup;
 			children = (
+				04949896220D0BCD000FF7F5 /* Cat.wav */,
 				04949863220CFDF2000FF7F5 /* AppDelegate.swift */,
 				04949865220CFDF2000FF7F5 /* ViewController.swift */,
 				04949867220CFDF2000FF7F5 /* Main.storyboard */,
@@ -232,6 +249,7 @@
 				0494986E220CFDF3000FF7F5 /* LaunchScreen.storyboard in Resources */,
 				0494986B220CFDF3000FF7F5 /* Assets.xcassets in Resources */,
 				04949869220CFDF2000FF7F5 /* Main.storyboard in Resources */,
+				04949897220D0BCD000FF7F5 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04949898220D0BCD000FF7F5 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04949899220D0BCD000FF7F5 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
